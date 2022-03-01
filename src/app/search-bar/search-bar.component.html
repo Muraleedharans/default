@@ -1,0 +1,17 @@
+  <div class="top-nav-search">
+      <form>
+        <input
+          type="text"
+          class="form-control"
+          list="datalistOptions"
+          placeholder="Search here"
+          (input)="suggest()"
+        />
+        <datalist id="datalistOptions">
+          <option *ngFor="let s of d" [value]="s">
+        </datalist>
+        <button class="btn" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </div>

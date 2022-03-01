@@ -1,1 +1,70 @@
-/* You can add global styles to this file, and also import other style files */
+.top-nav-search form {
+    width: 290px !important;
+  }.top-nav-search {
+    float: left;
+    margin-right: 15px;
+  }.top-nav-search {
+    float: left;
+    margin-right: 15px;
+  }
+  
+  .top-nav-search form {
+    margin-top: 6px;
+    position: relative;
+    width: 380px;
+  }
+  
+  .top-nav-search .form-control {
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    color: #818181;
+    height: 45px;
+    padding: 10px 50px 10px 15px;
+    box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.12);
+  }
+  
+  .top-nav-search .btn {
+    background-color: transparent;
+    border-color: transparent;
+    color: #928f8f;
+    min-height: 45px;
+    padding: 0px 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: none !important;
+  }
+  .top-nav-search .btn i {
+    background-color: #e7f1f3 !important;
+    padding: 10px !important;
+    border-radius: 18px;
+  }
+  .top-nav-search .btn:hover i {
+    background-color: #dedede !important;
+  }
+  .top-nav-search .form-control::-webkit-input-placeholder {
+    color: #ddd;
+  }
+  
+  .top-nav-search .form-control::-moz-placeholder {
+    color: #ddd;
+  }
+  
+  .top-nav-search .form-control:-ms-input-placeholder {
+    color: #ddd;
+  }
+  
+  .top-nav-search .form-control::-ms-input-placeholder {
+    color: #ddd;
+  }
+  
+  .top-nav-search .form-control::placeholder {
+    color: #ddd;
+  }
+  
+  .top-nav-search.active form {
+    display: block;
+    left: 0;
+    position: absolute;
+  }
